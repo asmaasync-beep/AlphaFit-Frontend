@@ -7,9 +7,7 @@ export default function HomeScreen() {
 
   return (
     <ImageBackground
-      source={{
-        uri: 'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      }}
+      source={require('../../assets/images/splash.jpg')}
       resizeMode="cover"
       style={styles.background}>
       <View style={styles.imageTint} />
