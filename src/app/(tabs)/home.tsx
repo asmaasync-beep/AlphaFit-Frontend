@@ -19,7 +19,7 @@ export default function HomeScreen() {
         <View style={styles.header}>
           <View>
             <Text style={styles.greeting}>Welcome back 👋</Text>
-            <Text style={styles.userName}>Asma</Text>
+            <Text style={styles.userName}>Ahmad</Text>
           </View>
           <TouchableOpacity style={styles.profileBadge}>
             <Text style={styles.profileBadgeText}>A</Text>
@@ -58,9 +58,9 @@ export default function HomeScreen() {
 
           <TouchableOpacity 
             style={styles.startWorkoutButton}
-            onPress={() => {
+            onPress={() => router.push('/workout')}
               // Partner 2 ke workout flow se connect hoga
-            }}
+            
           >
             <Text style={styles.startWorkoutButtonText}>Start Workout</Text>
           </TouchableOpacity>
